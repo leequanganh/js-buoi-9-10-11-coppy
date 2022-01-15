@@ -88,6 +88,7 @@ function suaSv(masv) {
     console.log(viTri);
     if (viTri !== -1) {
         var sv = dssv[viTri]
+        document.getElementById('txtMaSV').disabled = true /// khoong cho sua ma sv 
         document.getElementById('txtMaSV').value = sv.ma
         document.getElementById('txtTenSV').value = sv.ten
         document.getElementById('txtEmail').value = sv.email
